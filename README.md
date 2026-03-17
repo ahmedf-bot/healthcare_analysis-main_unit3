@@ -23,7 +23,7 @@ This project looks at how personal factors (e.g. gender, age, BMI, smoking statu
 * The gender of the individual will have an impact on the medical insurance cost.
 * A smoking person also having a high BMI will pay more for medical insurance 
 
-I will use visualisation tools like Matplotlib and Seaborn to clearly show the factors impacting medical insurance costs. Additionally, I will use PowerBI to create a interactive dashboard page.
+I will use visualisation tools like Matplotlib and Seaborn to clearly show the factors impacting medical insurance costs. Additionally, I will use PowerBI to create a interactive dashboard page. I will also look at a baseline linear regression model. 
 
 
 ## Project Plan
@@ -35,23 +35,23 @@ I will use visualisation tools like Matplotlib and Seaborn to clearly show the f
 ## The rationale to map the business requirements to the Data Visualisations
 * The aim is to identify which factors impact the medical insurance cost for customers in the USA. Matplotlib visualisation tool was used to clearly identify the patterns and test the hypothesis questions.
 
-1/ Do smokers pay more for medical insurance vs non smokers? 
+1/ Smokers pay more for medical insurance vs non smokers. 
 The box plot visualisation used and dashboard page clearly shows that smokers pay significantly more than non-smokers. 
 ![smoking impact picture](Images/output%20Smoking%20impact.png)
 
-2/ Does having a high BMI and smoking increase medical insurance cost? 
+2/ Having a high BMI and smoking increase medical insurance cost. 
 The scatter plot visualisation used and dashboard page clearly shows that being a smoker and having also having a high BMI means they pay more compared to a non-smoker with low BMI.
 ![BMI and smoking correlation](Images/output%20BMI%20and%20smoking%20correlation.png)
 
-3/ Do medical insurance cost increase with age? 
+3/ Medical insurance cost increase with age. 
 The scatter plot visualisation shows a the older you get the more you pay for medical insurance. There is gradual increase in cost with increase in age of the person. 
 ![Age impact](Images/output%20Age%20impact.png)
 
-4/ Does the region impact insurance cost? 
+4/ Region does not impact insurance cost. 
 The box plot visualisation and dashboard page shows that region has very little impact on costs. All four regions have a similar median value. 
 ![Region Impact](Images/output%20Region%20Impact.png)
 
-5/ Does the number of children a person have impact on medical insurance cost? The box plot visual shows no impact on insurance cost. 
+5/ Number of children a person have does not impact on medical insurance cost. The box plot visual shows no impact on insurance cost. 
 ![number of children impact](Images/output%20number%20of%20children%20impact.png)
 
 ## Analysis techniques used
@@ -59,15 +59,18 @@ The box plot visualisation and dashboard page shows that region has very little 
 * I used box plots to show that smokers pay higher medical insurance compared to non-smokers.
 * I used a scatter plot to show increasing age is linked to higher medical insurance cost i.e. the older you get the more you pay for insurance. 
 * I used scatter plots to show correlation between a smoker and high BMI resulting in higher cost for medical insurance. 
+* I used a baseline linear regression model to assess linear fit quality. 
+![linear regression](images/BMI%20vs%20Charges%20by%20Smoker%20Status%20linear%20regression.png)
 * I used Co-pilot to help as required. 
 
 ## Ethical considerations
 * The data was sourced from Kaggle, a Google-owned online platform offering datasets, and tools to learn, practice, and collaborate on real-world data challenges. 
-* The dataset does include anonymised personal information so needs to be handled carefully and used solely for the purpose of this data analysis. 
+* The dataset does include anonymised personal information so needs to be handled carefully and used solely for the purpose of this data analysis. The data was handled using transparent data practices. 
+* Data handling was in accordance with GDPR and ethical guidelines. 
 
 ## Dashboard Design
 * The dashboard page was developed using PowerBI to assits in understanding and allow the analysis of factors that impact healthcare insurance costs in four reagions of the USA.
-*The dashboard has various graphs (e.g. scatter plot, line plots and histograms) and buttons to drill down on the data looking at impact of smoker status, BMI, sex and by region.  
+* The dashboard has various graphs (e.g. scatter plot, line plots and histograms) and buttons to drill down on the data looking at impact of smoker status, BMI, sex and by region.  
 * In the dashboard page I have used simple smoker yes and no button, male vs female button to explain the impact on insurance cost to both technical and non-techincal audiences. 
 * The dashboard page also communicates complex data insight using a scatter plot. The scatter plot shows a positive correlation between BMI and insurance cost.  
 ![PowerBI Dashboard page](/Images/PowerBI%20Dashboard_page.png)
