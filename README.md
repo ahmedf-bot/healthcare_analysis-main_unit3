@@ -29,7 +29,8 @@ I will use visualisation tools like Matplotlib and Seaborn to clearly show the f
 ## Project Plan
 * Data collection and set up: The data was taken from Kaggle and saved as CSV file (RawData folder). This data was loaded in VS Code.
 * Data cleaning: The data extraction, transformation and loading (ETL) was completed. The data was reviewed for duplicates, outliers, missing values. The data cleaning was completed (CleanData folder) analysis was commenced. 
-* Data analysis and visualisation was completed using Matplotlib and Seaborn. The data presented using box-plots and scatter plots. Chart types were chosen based on data distribution. 
+* Data analysis and visualisation was completed using Matplotlib and Seaborn. The data presented using box-plots and scatter plots. Chart types were chosen based on data distribution.
+* The kanban board link is https://github.com/users/ahmedf-bot/projects/1 
 * The interactive dashboard page was created using PowerBI.
 
 ## The rationale to map the business requirements to the Data Visualisations
