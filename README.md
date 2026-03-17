@@ -61,7 +61,7 @@ The box plot visualisation and dashboard page shows that region has very little 
 * I used a scatter plot to show increasing age is linked to higher medical insurance cost i.e. the older you get the more you pay for insurance. 
 * I used scatter plots to show correlation between a smoker and high BMI resulting in higher cost for medical insurance. 
 * I used a baseline linear regression model to assess linear fit quality. 
-![linear regression](images/BMI%20vs%20Charges%20by%20Smoker%20Status%20linear%20regression.png)
+![linear regression](images/BMI_vs_Charges_by_Smoker_Status_linear_regression.png)
 * I used Co-pilot to help as required. 
 
 ## Ethical considerations
