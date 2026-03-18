@@ -62,7 +62,7 @@ The box plot visualisation and dashboard page shows that region has very little 
 * I used scatter plots to show correlation between a smoker and high BMI resulting in higher cost for medical insurance. 
 * I used a baseline linear regression model to assess linear fit quality. 
 ![linear regression](Images/BMI_vs_Charges_by_Smoker_Status_linear_regression.png)
-* I used Co-pilot to help as required. 
+* I used Co-pilot to help as required.
 
 ## Ethical considerations
 * The data was sourced from Kaggle, a Google-owned online platform offering datasets, and tools to learn, practice, and collaborate on real-world data challenges. 
@@ -70,7 +70,7 @@ The box plot visualisation and dashboard page shows that region has very little 
 * Data handling was in accordance with GDPR and ethical guidelines. 
 
 ## Dashboard Design
-* The dashboard page was developed using PowerBI to assits in understanding and allow the analysis of factors that impact healthcare insurance costs in four reagions of the USA.
+* The dashboard page was developed using PowerBI to assits in understanding and allow the analysis of factors that impact healthcare insurance costs in four reagions of the USA. https://app.powerbi.com/groups/me/reports/68c2a1a1-73ea-4c41-a79c-8679a19af5aa/641e99bd96c46f677cab?experience=power-bi
 * The dashboard has various graphs (e.g. scatter plot, line plots and histograms) and buttons to drill down on the data looking at impact of smoker status, BMI, sex and by region.  
 * In the dashboard page I have used simple smoker yes and no button, male vs female button to explain the impact on insurance cost to both technical and non-techincal audiences. 
 * The dashboard page also communicates complex data insight using a scatter plot. The scatter plot shows a positive correlation between BMI and insurance cost.  
